@@ -4,12 +4,17 @@ html {
 }
 
 /* Set the margin to 0 to make sure the page stretches all the way to the edge of the browser window. */
+@font-face {
+  font-family: 'Acherus Grotesque';
+  src: url('/fonts/Acherus Grotesque Updated/acherus_grotesque_-_black.otf');
+}
+
 body {
   margin: 0;
 }
 
 header, footer {
-  background-color: #ffa500;
+  background-color: #861F41;
   text-align: left;
 /*  min-width: 500px; */
 }
@@ -33,20 +38,21 @@ main {
 }
 
 h1 {
-  font-family: Poppins;
+  font-family: 'Acherus Grotesque';
   font-size: calc(1em + 3vw);
   padding-bottom: .67em;
-  border-bottom: 1px solid;
+  border-bottom: 5px solid;
   line-height: 1.3;
+  color:#E87722;
 }
 
 h2 {
-  font-family: Poppins;
+  font-family: 'Acherus Grotesque';
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #ffa500;
+  color: #E87722;
   padding: 10px 0px 10px 10px;
 }
 
@@ -54,6 +60,11 @@ img {
   width: 100%;
   height: 50vh;
   object-fit: cover;
+}
+
+img:hover{
+  opacity: 0.7;
+  transition-duration: 0.5s;
 }
 
 .wrapper {
@@ -66,7 +77,8 @@ img {
 .bio {
 color: #ffffff;
 font-size: 24px;
-font-family: 'Work Sans';
+letter-spacing: 1.5px;
+font-family: Work Sans;
 }
 
 .buttonBox {
@@ -87,7 +99,7 @@ font-family: 'Work Sans';
 }
 
 .myButton:hover {
-    background-color:#e69708;
+    background-color:#E87722;
 }
 
 .myButton:active {
